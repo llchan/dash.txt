@@ -1,0 +1,46 @@
+.blue {
+    background-color: #2ba6cb;
+}
+
+dl.tabs.vertical dd.done {
+    color: #c0c0c0;
+}
+
+dl.tabs.vertical dd.done:before {
+    border-left: 5px solid #d0d0d0;
+}
+
+dl.tabs.vertical dd.pending:before {
+    border-left: 5px solid #2ba6cb;
+}
+
+dl.tabs.vertical dd {
+    /* background: #f2f2f2; */
+    background: none;
+    border: 1px solid #e6e6e6;
+    border-width: 1px 1px 0 0;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: auto;
+    line-height: 1;
+    padding: 15px 20px;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    position: relative;
+}
+
+dl.tabs.vertical dd:before {
+    display:block;
+    content:".";
+    color:transparent;
+    font-size:0;
+    /* border-left:5px solid #f24495; */
+    height:100%;
+    position:absolute;
+    left:0;
+    padding:1px 0;
+    top:-1px;
+    bottom:-1px;
+}
